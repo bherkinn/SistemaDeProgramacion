@@ -1,0 +1,44 @@
+.cboperiodo{
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 5px;
+	font-size: 12px;
+    border-radius: 4px;
+}
+
+.titulo-tabla{
+	padding: 5px;
+	font-weight: bold;
+	font-size: 28px;
+	color: #787777;
+}
+.btn-actualizar-tabla{
+	border:none;
+	border-radius: 4px;
+}
+
+.cabecera-tabla2{
+  height: 40px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #5640FC;
+  
+}
+.hora{
+  font-weight: bold;
+}
+.caract{
+  font-size: 13px;
+  text-align: left;
+  padding-left:10px;
+  color: #3218F8;
+}
+
+/*.centrar{
+	margin:auto;
+	display: flex;
+	width: 80%;
+	justify-content: center;
+	margin-bottom: 15px;
+}*/
+

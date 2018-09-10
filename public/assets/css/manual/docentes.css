@@ -1,0 +1,41 @@
+.cabecera-tabla2{
+  height: 40px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #5640FC;
+  
+}
+.hora{
+  font-weight: bold;
+}
+
+.tabla-docentes-manual{
+  width: 100%;
+}
+
+.cboperiodo{
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 5px;
+	font-size: 12px;
+    border-radius: 4px;
+}
+.titulo-tabla{
+	padding: 5px;
+	font-weight: bold;
+	font-size: 28px;
+	color: #787777;
+}
+.btn-actualizar-tabla{
+	
+	border:none;
+	border-radius: 4px;
+}
+.centrar{
+	margin:auto;
+	display: flex;
+	width: 80%;
+	justify-content: center;
+	margin-bottom: 15px;
+}
+

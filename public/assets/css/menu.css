@@ -1,0 +1,121 @@
+/*---------------------------MENU---------------------------*/
+.menu{
+	background-color: #2455be;
+	width: 220px;
+	float: left;
+	/*height: 800px;*/
+	position: fixed;
+}
+
+.ocultar{
+	transition: margin-left 0.5s;
+	margin-left: -220px;
+	
+}
+.mostrar{
+	transition: margin-left 0.5s;
+	margin-left:0px;
+}
+
+/*---------------------------CONTENEDOR---------------------------*/
+.contenedor{
+	position: relative;
+	height: 100%;
+}
+.reducir{
+	transition: width 0.5s,margin-left 0.5s;
+	width: 100%-220px;
+	margin-left: 220px;
+	height: 100%;
+}
+.ampliar{
+	transition: width 0.5s,margin-left 0.5s;
+	width: 100%+220px;
+	margin-left: 0px;
+	height: 100%;
+}
+/*-------------------------NAVEGADOR------------------------------*/
+.nav{
+	width: 220px;
+	height: 100vh;
+}
+.nav>ul{
+	height: 100%;
+	margin-left:-40px;
+	width: 260px;
+	overflow-y: auto;
+}
+.nav>ul>li{
+	list-style: none;
+	width: 100% !important;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	
+}
+.nav>ul>li>a{
+	width: 100% !important;
+	padding: 8px 5px 8px 5px;
+	text-decoration: none;
+	color: #fff;
+	margin:2px 4px 2px 4px;
+	border-radius: 4px;
+	/*text-align: center;*/
+}
+.nav>ul>li>a:hover{
+	background-color: #2F65D9;
+	cursor: pointer;
+}
+.nav>ul>li>ul{
+	display: none;
+	margin-left:-40px;
+	width: 260px !important;
+}
+.nav>ul>li>ul>li{
+	display:flex;
+	list-style: none;
+	min-width: 100% !important;
+	background-color: #2f65d9;
+}
+.nav>ul>li>ul>li>a{
+	min-width: 100% !important;
+	padding: 5px;
+	color:#E6F6FF;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 5px;
+}
+.nav>ul>li>ul>li>a:hover{
+	background-color: #2455be;
+}
+
+.izquierda{
+	float: left;
+	margin-right: 10px;
+	margin-left:10px;
+	margin-top: 4px;
+}
+.derecha{
+	float: right;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+.titulo-sub-menu{
+	justify-content: center;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 5px;
+}
+/*---------------------------------*/
+body { 
+    scrollbar-base-color: color1; 
+    scrollbar-track-color: color2; 
+    scrollbar-face-color: color3; 
+    scrollbar-highlight-color: color4; 
+    scrollbar-3dlight-color: color5; 
+    scrollbar-darkshadow-color: color6; 
+    scrollbar-shadow-color: colo7r; 
+    scrollbar-arrow-color: color8; 
+ } 
